@@ -1,0 +1,24 @@
+main {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.aposta {
+    margin: 5vh;
+}
+#stack {
+    margin: 5vh 20vw;
+}
+
+#valor {
+    margin-left: auto;
+
+}
+
+.botoes {
+    margin-top: 5vh;
+    justify-content: space-between;
+}
