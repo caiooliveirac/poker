@@ -1,0 +1,27 @@
+{
+  "name": "poker",
+  "version": "1.0.0",
+  "description": "'criação de aplicativo para otimizar jogos de poker sem fichas físicas'",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caiooliveirac/poker.git"
+  },
+  "keywords": [
+    "poker"
+  ],
+  "author": "caiooliveirac",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caiooliveirac/poker/issues"
+  },
+  "homepage": "https://github.com/caiooliveirac/poker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.2.0"
+  }
+}
