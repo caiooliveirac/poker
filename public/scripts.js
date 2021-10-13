@@ -5,9 +5,9 @@ var myPix = new Array("010.png","011.png","002.png","009.png","008.png","007.png
 function choosePic() {
      var randomNum = Math.floor(Math.random() * myPix.length);
      document.getElementById("imagem").src = myPix[randomNum];
-} 
+}
 
-jogadores = new Array("1","2","3","4","5")
+jogadores = new Array("1")
 
 for (var i = 0; i < jogadores.length; i++) {
     var container = document.querySelector(".container");
@@ -16,4 +16,5 @@ for (var i = 0; i < jogadores.length; i++) {
     choosePic()
  }
 
- 
+let nomeJogador = document.getElementById('nomeJogador')
+

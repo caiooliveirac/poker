@@ -22,3 +22,17 @@ main {
     margin-top: 5vh;
     justify-content: space-between;
 }
+
+.form-group {
+    margin: 10vh 20vw 10vh 10vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-control {
+    margin: 4vh 10vw;
+}
+
+.imagem {
+    margin-top: 16vh;
+}

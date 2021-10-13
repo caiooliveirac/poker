@@ -9,26 +9,19 @@
     </head>
     <body>
         <main>
-            <div class="container"></div>
-            <div class='aposta'>
-                <h2 id='nomeJogador'></h1>    
-            </div>
-            <div class='aposta'>
-                <h1 id='stack'>Aposta:</h1>
-                <h3 id='valorAposta'>0</h3>
-            </div>
-            <div class='pote'>
-            <h1 id='stack'>Meu pote:</h1>
-            <h3 id='valorPote'></h3>
+            <img class="imagem" src="006.png">
+            <div class="form-group">
+            <form action="/cadastrar" method="post">
+                <label for="name">Qual o teu nome?</label>
+                <input type="text" class="form-control" name="nome" id="name" placeholder="Nome" />
+                <label for="valorpote">Começa com quantas fichas?</label>
+                <input type="number" class="form-control" name="valorPote" id="valorPote" placeholder="Valor do Pote" />
+                <button type="submit" class="btn-primary">Entrar</button>
+            </form>
         </div>
-        <div class="botoes">
-            <button type='submit' class="btn btn-primary">Passar</button>
-            <button type="submit" class="btn btn-primary">Desistir</button>
-            <button type="submit" class="btn btn-primary">Apostar</button>
-        </div>
+    
         </main>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="settings.json"></script>
-        <script src="scripts.js"></script>
+        
     </body>
     </html>
